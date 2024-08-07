@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Norse;
+  src: url(Norse-Bold.otf);
+}
+
+p,
+h1,
+label {
+  font-family: Norse;
+}

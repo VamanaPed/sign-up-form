@@ -5,12 +5,23 @@
 
 p,
 h1,
+h2,
 label {
   font-family: Norse;
 }
 
 body {
   display: flex;
+  background-color: var(--color1);
+  --color1: #f0fdfb;
+  --color2: #154740;
+  --color3: #2dc6ac;
+  --color4: #f7e3c4;
+  --color5: #d49860;
+}
+
+label {
+  display: block;
 }
 
 /* Elements */
@@ -24,14 +35,14 @@ body {
 }
 
 #right-signup-page {
+  margin-top: 14vh;
   width: 70%;
   height: 100vh;
 }
 
 #odin-panel {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   margin-top: 20vh;
-  opacity: 50%;
   display: flex;
   justify-content: center;
 }
@@ -39,7 +50,6 @@ body {
 #odin-image {
   width: 25%;
   margin: 5%;
-  opacity: initial;
 }
 
 #odin-text {
@@ -47,7 +57,34 @@ body {
   font-size: 8vw;
   padding: 0;
   margin: 0;
-  opacity: initial;
   color: white;
   align-self: center;
+}
+
+#form-page {
+  background-color: white;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+/* Helpers */
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.left-margin-style {
+  margin-left: 4vh;
+}
+
+/* Styles */
+
+.flex-row {
+  display: flex;
+  gap: 5vw;
+  margin: 10px 0;
 }

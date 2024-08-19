@@ -14,10 +14,12 @@ body {
   display: flex;
   background-color: var(--color1);
   --color1: #f0fdfb;
-  --color2: #154740;
+  --color2: #1d756a;
   --color3: #2dc6ac;
   --color4: #f7e3c4;
   --color5: #d49860;
+  padding: 0;
+  margin: 0;
 }
 
 label {
@@ -30,7 +32,7 @@ label {
   width: 30%;
   height: 100vh;
   background-image: url(Images/oceanwaves.png);
-  background-size: 75vh;
+  background-size: 80vh;
   background-repeat: no-repeat;
 }
 
@@ -65,6 +67,35 @@ label {
   background-color: white;
   padding: 10px 0;
   margin: 20px 0;
+  box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+#create-account-btn {
+  height: 35px;
+  width: 20vw;
+  color: white;
+  font-weight: 700;
+  background-color: var(--color2);
+  border: var(--color2) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-input {
+  height: 20px;
+  width: 25vw;
+  border-radius: 2px;
+  border: rgb(223, 223, 223) solid 1px;
+}
+
+.form-input:focus {
+  background-color: var(--color1);
+  outline: var(--color3) solid 1px;
+  box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+#alread-have-text {
+  margin-top: 30px;
 }
 
 /* Helpers */

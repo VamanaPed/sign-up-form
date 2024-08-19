@@ -32,19 +32,34 @@
             <div class="flex-row">
               <div>
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name" />
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  class="form-input"
+                />
               </div>
 
               <div>
                 <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" />
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  class="form-input"
+                />
               </div>
             </div>
 
             <div class="flex-row">
               <div>
                 <label for="input-email">EMAIL</label>
-                <input type="email" name="input-email" id="input-email" />
+                <input
+                  type="email"
+                  name="input-email"
+                  id="input-email"
+                  class="form-input"
+                />
               </div>
 
               <div>
@@ -53,6 +68,7 @@
                   type="tel"
                   name="input-phone-number"
                   id="input-phone-number"
+                  class="form-input"
                 />
               </div>
             </div>
@@ -64,6 +80,7 @@
                   type="password"
                   name="input-password"
                   id="input-password"
+                  class="form-input"
                 />
               </div>
 
@@ -73,6 +90,7 @@
                   type="password"
                   name="input-confirm-password"
                   id="input-confirm-password"
+                  class="form-input"
                 />
               </div>
             </div>
@@ -81,8 +99,10 @@
       </div>
 
       <div class="left-margin-style">
-        <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <button type="submit" id="create-account-btn">Create Account</button>
+        <p id="alread-have-text">
+          Already have an account? <a href="">Log in</a>
+        </p>
       </div>
     </div>
   </body>

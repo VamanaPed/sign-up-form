@@ -27,7 +27,7 @@
       <div id="form-page">
         <div class="left-margin-style">
           <form action="" method="post">
-            <p>Let's do this!</p>
+            <h3>Let's do this!</h3>
 
             <div class="flex-row">
               <div>
@@ -82,6 +82,9 @@
                   id="input-password"
                   class="form-input"
                 />
+                <label id="invalid-pwd-text" class="hidden"
+                  >Passwords do not match</label
+                >
               </div>
 
               <div>
@@ -100,10 +103,12 @@
 
       <div class="left-margin-style">
         <button type="submit" id="create-account-btn">Create Account</button>
-        <p id="alread-have-text">
+        <p id="already-have-text">
           Already have an account? <a href="">Log in</a>
         </p>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

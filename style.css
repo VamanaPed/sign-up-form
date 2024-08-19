@@ -8,3 +8,46 @@ h1,
 label {
   font-family: Norse;
 }
+
+body {
+  display: flex;
+}
+
+/* Elements */
+
+#left-signup-page {
+  width: 30%;
+  height: 100vh;
+  background-image: url(Images/oceanwaves.png);
+  background-size: 75vh;
+  background-repeat: no-repeat;
+}
+
+#right-signup-page {
+  width: 70%;
+  height: 100vh;
+}
+
+#odin-panel {
+  background-color: black;
+  margin-top: 20vh;
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#odin-image {
+  width: 25%;
+  margin: 5%;
+  opacity: initial;
+}
+
+#odin-text {
+  font-family: Norse;
+  font-size: 8vw;
+  padding: 0;
+  margin: 0;
+  opacity: initial;
+  color: white;
+  align-self: center;
+}
